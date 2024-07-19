@@ -1,0 +1,39 @@
+
+.landing-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+  }
+  
+  .text-section {
+    max-width: 50%;
+  }
+  
+  .text-section h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  .text-section h2 {
+    font-size: 2em;
+    margin: 0;
+    color: #555;
+  }
+  
+  .image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .round-image {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px; 
+    object-fit: cover;
+  }
+  

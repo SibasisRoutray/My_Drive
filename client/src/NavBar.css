@@ -1,0 +1,30 @@
+/* NavBar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+    color: white;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .navbar-items {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .navbar-item a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar-item a:hover {
+    text-decoration: underline;
+  }
+  
